@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-blue-950 flex flex-col">
-      <h1 className="text-3xl font-bold mb-4 text-center text-white">CSV Table App</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center text-white">CSV Table Render</h1>
       <TableOne setTableOneData={setTableOneData} />
       <TableTwo tableOneData={tableOneData} />
     </div>
