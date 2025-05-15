@@ -10,7 +10,7 @@ const TableOne: React.FC<TableOneProps> = ({ setTableOneData }) => {
   const [table, setTable] = useState<string[][]>([]);
 
   useEffect(() => {
-    fetch("/Table_Input.csv")
+    fetch("/Mulah-Assessment/Table_Input.csv")
       .then((res) => res.text())
       .then((csvText) => {
         Papa.parse<string[]>(csvText, {
